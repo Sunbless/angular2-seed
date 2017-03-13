@@ -14,6 +14,13 @@ import { RepoListComponent } from './github/repo-list/repo-list.component';
 import { RepoDetailComponent } from './github/repo-detail/repo-detail.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { ContactComponent } from './contact/contact.component';
+import { FavoriteComponent } from './favorite.component';
+import { Routes } from '@angular/router';
+import {LikeComponent} from './like.component'
+import {ZippyComponent} from './zippy.component'
+import {CrudComponent} from './crud-table.component'
+
+
 
 @NgModule({
   declarations: [
@@ -23,7 +30,11 @@ import { ContactComponent } from './contact/contact.component';
     RepoListComponent,
     RepoDetailComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    FavoriteComponent,
+    LikeComponent,
+    ZippyComponent,
+    CrudComponent
   ],
   imports: [
     BrowserModule,
